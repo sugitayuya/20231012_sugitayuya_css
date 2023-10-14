@@ -3,9 +3,6 @@ html, body {
     width: 100%;
 }
 
-* {
-    outline: 1px solid red !important;
-}
 
 .header {
     display: flex;
@@ -60,6 +57,7 @@ img {
     top: 50%;
     left: 0%;
     font-size: 80px;
+    z-index: 20;
 }
 
 .firstview-absolute__box {
