@@ -7,6 +7,8 @@ html, body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 5px;
 }
 
 .header__left {
@@ -28,12 +30,13 @@ ul {
 
 li {
     display: inline-block;
-    margin-right: 20px;
     text-align: center;
+    padding-right: 10px;
 }
 
 .header__right {
     display: inline-block;
+    height: 100%;
 }
 
 .firstview-relative {
@@ -54,18 +57,22 @@ img {
 
 .firstview-absolute__title {
     position: absolute;
-    top: 50%;
+    top: 67%;
     left: 0%;
     font-size: 80px;
-    z-index: 20;
-}
-
-.firstview-absolute__box {
-    position: absolute;
-    top: 78%;
-    left: 0%;
-    width: 70%;
-    height: 35%;
-    background-color: rgba(19, 19, 129, 0.907);
     z-index: 0;
 }
+
+p::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 300%;
+    height: 280%;
+    background-color: rgba(19, 19, 129, 0.907);
+}
+
+/* * {
+    border: red solid 1px !important;
+} */
