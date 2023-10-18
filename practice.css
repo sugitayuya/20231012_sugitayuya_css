@@ -3,7 +3,6 @@ html, body {
     width: 100%;
 }
 
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -68,7 +67,7 @@ p::after {
     position: absolute;
     top: 100%;
     left: 0%;
-    width: 300%;
+    width: 200%;
     height: 280%;
     background-color: rgba(19, 19, 129, 0.907);
 }
